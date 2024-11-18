@@ -2,9 +2,9 @@ runtime: python39
 
 handlers:
 - url: /
-  static_files: public/index.html
-  upload: public/index.html
+  static_files: www/index.html
+  upload: www/index.html
 
 - url: /(.*)
-  static_files: public/\1
-  upload: public/(.*)
+  static_files: www/\1
+  upload: www/(.*)
