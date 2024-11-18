@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #0e5200;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .profile {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .job-title {
+    margin: 5px 0 0 0;
+    font-size: 1.2em;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    padding: 0 20px;
+  }
+  
+  .story, .personal-info {
+    width: 45%;
+  }
+  
+  .story h3, .personal-info h3 {
+    margin-bottom: 10px;
+    color: #0e5200;
+  }
+  
+  footer {
+    margin-top: 30px;
+  }
+  
+  footer h3 {
+    margin-bottom: 10px;
+    color: #0e5200;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .icon img {
+    width: 40px;
+    height: 40px;
+  }
+  
